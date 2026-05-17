@@ -7,15 +7,52 @@
 
 Для сборки проекта необходимо установить следующие библиотеки в Arduino IDE:
 
-Adafruit GFX Library
+#include <Arduino.h>
 
-Adafruit ST7789 and ST7735 Library.
 
-DHT sensor library
+#include <SPI.h>
 
-Adafruit Unified Sensor
 
-SPI
+#include <Adafruit_GFX.h>
+
+
+#include <Adafruit_ST7789.h>
+
+
+#include <U8g2_for_Adafruit_GFX.h>
+
+
+#include <DHT.h>
+
+
+#include <WiFi.h>
+
+
+#include <WiFiClientSecure.h>
+
+
+#include <HTTPClient.h>
+
+
+#include <WebServer.h>
+
+
+#include <MFRC522.h>
+
+
+#include <time.h>
+
+
+#include <string.h>
+
+
+#include <math.h>
+
+
+#include <Preferences.h>
+
+
+#include "esp_heap_caps.h"
 
 Если проект открыт через Visual Studio Code, библиотеки должны быть доступны в установленной Arduino-среде или через используемое расширение/окружение сборки.
 
